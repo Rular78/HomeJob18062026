@@ -1,4 +1,5 @@
 from src.masks import get_mask_card_number, get_mask_account
+from datetime import datetime
 
 
 def mask_account_card(card_info: str) -> str:
@@ -24,5 +25,33 @@ def mask_account_card(card_info: str) -> str:
     # Возвращаем результат: тип + замаскированный номер
     return f"{card_type} {masked_number}"
 
-result1 = mask_account_card("Visa Platinum 7000792289606361")
-print(result1)  # Visa Platinum 7000 79** **** 6361
+
+def get_date(date_string: str) -> str:
+
+    # Парсим строку в объект datetime
+    dt = datetime.fromisoformat(date_string)
+
+    # Возвращаем в нужном формате
+    return dt.strftime("%d.%m.%Y")
+
+# result1 = mask_account_card("Maestro 1596837868705199")
+# print(result1)
+# result1 = mask_account_card("Счет 64686473678894779589")
+# print(result1)
+# result1 = mask_account_card("MasterCard 7158300734726758")
+# print(result1)
+# result1 = mask_account_card("Счет 35383033474447895560")
+# print(result1)
+# result1 = mask_account_card("Visa Classic 6831982476737658")
+# print(result1)
+# result1 = mask_account_card("Visa Platinum 8990922113665229")
+# print(result1)
+# result1 = mask_account_card("Visa Gold 5999414228426353")
+# print(result1)
+# result1 = mask_account_card("Счет 73654108430135874305")
+# print(result1)
+
+result1 = get_date("2026-03-11T02:26:18.671407")
+print(result1)
+
+
