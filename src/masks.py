@@ -1,6 +1,3 @@
-from src import masks
-
-
 def get_mask_card_number(card_number: int | str) -> str:
     # 1. Сначала преобразуем в строку и убираем пробелы
     card_number = str(card_number).replace(" ", "")

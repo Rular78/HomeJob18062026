@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d503bee7-4d7b-4421-9427-bc3ef9fdb74b" name="Changes" comment="NewModule &quot;widget&quot; 071226_01">
+    <list default="true" id="d503bee7-4d7b-4421-9427-bc3ef9fdb74b" name="Changes" comment="NewDef Get-Date 071226_02">
+      <change afterPath="$PROJECT_DIR$/src/processing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/processing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/widget.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readmi.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/masks.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/masks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/widget.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/widget.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/masks.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/masks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_module1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_module2.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +28,17 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="develop" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -46,23 +67,35 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Git.Working.Tree.Tab.closed.by.user": "closed",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.__init__.executor": "Run",
     "Python.main.executor": "Run",
     "Python.masks.executor": "Run",
+    "Python.processing.executor": "Run",
     "Python.widget.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/cust/PycharmProjects/HomeJob180626",
+    "git-widget-placeholder": "feature/homework__10__1",
+    "git.auto.fetch.suggestion.counter": "3",
+    "last_opened_file_path": "/home/cust/PycharmProjects/HomeJob180626/tests",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "project.propVCSSupport.CommitDialog"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.widget">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.processing">
     <configuration name="masks" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="HomeJob180626" />
       <option name="ENV_FILES" value="" />
@@ -79,6 +112,30 @@
       <option name="DEBUG_JUST_MY_CODE" value="false" />
       <option name="RUN_TOOL" value="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/masks.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="processing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="HomeJob180626" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/processing.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -113,6 +170,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.processing" />
+        <item itemvalue="Python.widget" />
+        <item itemvalue="Python.masks" />
         <item itemvalue="Python.widget" />
         <item itemvalue="Python.masks" />
       </list>
@@ -173,7 +233,15 @@
       <option name="project" value="LOCAL" />
       <updated>1783840702863</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="NewDef Get-Date 071226_02">
+      <option name="closed" value="true" />
+      <created>1783841426305</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1783841426305</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,7 +261,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Begin" />
     <MESSAGE value="NewModule &quot;widget&quot; 071226_01" />
-    <option name="LAST_COMMIT_MESSAGE" value="NewModule &quot;widget&quot; 071226_01" />
+    <MESSAGE value="NewDef Get-Date 071226_02" />
+    <option name="LAST_COMMIT_MESSAGE" value="NewDef Get-Date 071226_02" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

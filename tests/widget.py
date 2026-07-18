@@ -1,10 +1,19 @@
-from src.masks import get_mask_card_number, get_mask_account
+"""
+Модуль widget для демонстрации работы функций со строками.
+
+Требование к задачам 9.2 (используются функции из другого раздела)
+
+Содержит функции для маскировки номеров карт и счетов.
+"""
+
 from datetime import datetime
+
+from src.masks import get_mask_account, get_mask_card_number
 
 
 def mask_account_card(card_info: str) -> str:
     # Разделяем строку на части: тип и номер
-    parts = card_info.rsplit(' ', 1)  # Разделяем по последнему пробелу
+    parts = card_info.rsplit(" ", 1)  # Разделяем по последнему пробелу
 
     # Если разделение не удалось (нет пробела), возвращаем исходную строку
     if len(parts) != 2:
