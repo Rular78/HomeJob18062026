@@ -36,6 +36,9 @@ lint = [
     "isort (>=8.0.1,<9.0.0)",
     "black (>=26.5.1,<27.0.0)"
 ]
+dev = [
+    "pytest (>=9.1.1,<10.0.0)"
+]
 
 [tool.black]
 line-length = 119

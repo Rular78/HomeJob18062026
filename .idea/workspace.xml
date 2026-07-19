@@ -58,8 +58,10 @@
   &quot;keyToString&quot;: {
     &quot;Git.Working.Tree.Tab.closed.by.user&quot;: &quot;closed&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests in test_masks.py.executor&quot;: &quot;Run&quot;,
     &quot;Python.__init__.executor&quot;: &quot;Run&quot;,
     &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.masks (1).executor&quot;: &quot;Run&quot;,
     &quot;Python.masks.executor&quot;: &quot;Run&quot;,
     &quot;Python.processing.executor&quot;: &quot;Run&quot;,
     &quot;Python.widget.executor&quot;: &quot;Run&quot;,
@@ -68,7 +70,7 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
     &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/homework__10__1&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;#1 on feature/homework__10__1&quot;,
     &quot;git.auto.fetch.suggestion.counter&quot;: &quot;3&quot;,
     &quot;last_opened_file_path&quot;: &quot;/home/cust/PycharmProjects/HomeJob180626/tests&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
@@ -91,7 +93,31 @@
       <recent name="$PROJECT_DIR$/tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.processing">
+  <component name="RunManager" selected="Python tests.Python tests in test_masks.py">
+    <configuration name="masks (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="HomeJob180626" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/masks.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="masks" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="HomeJob180626" />
       <option name="ENV_FILES" value="" />
@@ -164,11 +190,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests in test_masks.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="HomeJob180626" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_masks.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests in test_masks.py" />
+        <item itemvalue="Python.masks (1)" />
         <item itemvalue="Python.processing" />
-        <item itemvalue="Python.widget" />
-        <item itemvalue="Python.masks" />
         <item itemvalue="Python.widget" />
         <item itemvalue="Python.masks" />
       </list>
@@ -261,7 +304,39 @@
       <option name="project" value="LOCAL" />
       <updated>1784405360134</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="homework_10_1 начало 18072026">
+      <option name="closed" value="true" />
+      <created>1784405615667</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1784405615668</updated>
+    </task>
+    <task id="LOCAL-00011" summary="проверка sort_by_date 18072026">
+      <option name="closed" value="true" />
+      <created>1784405842337</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1784405842337</updated>
+    </task>
+    <task id="LOCAL-00012" summary="чистка кода листенерами 18072026">
+      <option name="closed" value="true" />
+      <created>1784405878000</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1784405878000</updated>
+    </task>
+    <task id="LOCAL-00013" summary="чистка кода повторно 19072926">
+      <option name="closed" value="true" />
+      <created>1784448885144</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1784448885144</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -272,7 +347,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="feature/homework_10_1" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -283,7 +370,10 @@
     <MESSAGE value="NewModule &quot;widget&quot; 071226_01" />
     <MESSAGE value="NewDef Get-Date 071226_02" />
     <MESSAGE value="homework_10_1 начало 18072026" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework_10_1 начало 18072026" />
+    <MESSAGE value="проверка sort_by_date 18072026" />
+    <MESSAGE value="чистка кода листенерами 18072026" />
+    <MESSAGE value="чистка кода повторно 19072926" />
+    <option name="LAST_COMMIT_MESSAGE" value="чистка кода повторно 19072926" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

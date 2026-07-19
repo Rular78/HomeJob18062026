@@ -10,14 +10,14 @@ from datetime import datetime
 from typing import Any, Dict, List
 
 
-def filter_by_state(data_list: List[Dict[str, Any]], state: str = 'EXECUTED') -> List[Dict[str, Any]]:
-    return [item for item in data_list if item.get('state') == state]
+def filter_by_state(data_list: List[Dict[str, Any]], state: str = "EXECUTED") -> List[Dict[str, Any]]:
+    return [item for item in data_list if item.get("state") == state]
 
 
-def sort_by_date(data_list: List[Dict[str, Any]], descending: bool = True) -> List[Dict[str, Any]]:
+def sort_by_date(data_list: List[Dict[str, Any]], is_descending: bool = True) -> List[Dict[str, Any]]:
     # Функция для извлечения даты из словаря с преобразованием в объект datetime
     def get_date(item: Dict[str, Any]) -> datetime:
-        date_str = item.get('date', '')
+        date_str = item.get("date", "")
         try:
             # Парсим строку с датой в формате ISO 8601
             return datetime.fromisoformat(date_str)
@@ -25,7 +25,8 @@ def sort_by_date(data_list: List[Dict[str, Any]], descending: bool = True) -> Li
             # Если дата отсутствует или имеет неверный формат, возвращаем минимальную дату
             # чтобы такие записи оказались в конце списка
             return datetime.min
-    return sorted(data_list, key=get_date, reverse=descending)
+
+    return sorted(data_list, key=get_date, reverse=is_descending)
 
 
 # transactions = [
