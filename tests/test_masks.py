@@ -4,32 +4,49 @@
 Содержит тесты для проверки корректности маскировки номеров карт и счетов.
 """
 
-from src.masks import get_mask_account, get_mask_card_number
-
-# Тестовые данные
-CARD_NUMBER = "7000792289606361"
-EXPECTED_CARD = "7000 79** **** 6361"
-
-ACCOUNT_NUMBER = "73654108430135874305"
-EXPECTED_ACCOUNT = "**4305"  # Обрати внимание: без пробела, как в твоей функции
+import pytest
+from src.masks import get_mask_card_number, get_mask_account
+from .fixtures.card_data import CARD_TEST_CASES,ACCOUNT_TEST_CASES  # Импорт данных
 
 
-def test_get_mask_card_number() -> None:
+# def test_get_mask_account() -> None:
+# # Тестирует функцию get_mask_account. Проверяет, что номер счета маскируется в формате **XXXX.
+#     assert get_mask_account(ACCOUNT_NUMBER) == EXPECTED_ACCOUNT
+
+
+@pytest.mark.parametrize("card_number, expected, description", CARD_TEST_CASES)
+def test_get_mask_card_number(card_number, expected, description):
+    """Тест с данными из отдельного Python-файла."""
+    assert get_mask_card_number(card_number) == expected, (
+        f"Ошибка в кейсе: {description} (номер: {card_number})"
+    )
+
+
+@pytest.mark.parametrize("account_number, expected, description", ACCOUNT_TEST_CASES)
+def test_get_mask_account(account_number, expected, description) -> None:
     """
-    Тестирует функцию get_mask_card_number.
-
-    Проверяет, что номер карты маскируется в формате XXXX XX** **** XXXX.
+    Параметризованный тест маскировки номера счета.
     """
-    assert get_mask_card_number(CARD_NUMBER) == EXPECTED_CARD
+    assert get_mask_account(account_number) == expected, (
+        f"Ошибка в кейсе: {description} (счет: {account_number})"
+    )
 
 
-def test_get_mask_account() -> None:
-    """
-    Тестирует функцию get_mask_account.
 
-    Проверяет, что номер счета маскируется в формате **XXXX.
-    """
-    assert get_mask_account(ACCOUNT_NUMBER) == EXPECTED_ACCOUNT
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 # def test_get_mask_card_number() -> str:

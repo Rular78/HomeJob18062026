@@ -19,7 +19,8 @@ def get_mask_account(account_number: int | str) -> str:
     return f"** {account_number[-4:]}"
 
 
-# print(get_mask_card_number("7000792289606361"))
-# print("отработала функция get_mask_card_number")
-print(get_mask_account("73654108430135874305"))
-print("отработала функция get_mask_account")
+print(get_mask_account("1234567890123456"))
+# print("отработала функция get_mask_account")
+# print(get_mask_card_number("2201382000000013"))
+
+
