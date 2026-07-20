@@ -20,4 +20,6 @@ exclude =
     dist,
     .venv,
     venv,
-    migrations
+    migrations,
+    .idea,
+    .mypy_cache

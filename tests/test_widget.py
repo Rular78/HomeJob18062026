@@ -3,7 +3,8 @@
 """
 import pytest
 from src.widget import mask_account_card, get_date
-from .fixtures.card_data import MASK_ACCOUNT_CARD_TEST_CASES, DATE_TEST_CASES # Импорт данных
+from .fixtures.card_data import MASK_ACCOUNT_CARD_TEST_CASES, DATE_TEST_CASES
+
 
 @pytest.mark.parametrize(
     "card_info, expected, description",
@@ -17,6 +18,7 @@ def test_mask_account_card(card_info, expected, description) -> None:
     assert mask_account_card(card_info) == expected, (
         f"Ошибка в кейсе: {description} (входные данные: {card_info})"
     )
+
 
 @pytest.mark.parametrize(
     "date_string, expected, description",

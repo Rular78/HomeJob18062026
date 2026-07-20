@@ -1,4 +1,6 @@
 import pytest
+from src.processing import filter_by_state
+
 
 @pytest.fixture
 def sample_transactions():
@@ -8,6 +10,7 @@ def sample_transactions():
         {"id": 2, "state": "CANCELED", "date": "2023-01-02T12:00:00"},
         {"id": 3, "state": "EXECUTED", "date": "2023-01-03T15:30:00"},
     ]
+
 
 # test_processing.py
 def test_filter_by_state(sample_transactions):

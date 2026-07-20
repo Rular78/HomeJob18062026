@@ -22,5 +22,3 @@ def get_mask_account(account_number: int | str) -> str:
 print(get_mask_account("1234567890123456"))
 # print("отработала функция get_mask_account")
 # print(get_mask_card_number("2201382000000013"))
-
-

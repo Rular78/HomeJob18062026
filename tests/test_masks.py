@@ -6,7 +6,7 @@
 
 import pytest
 from src.masks import get_mask_card_number, get_mask_account
-from .fixtures.card_data import CARD_TEST_CASES,ACCOUNT_TEST_CASES  # Импорт данных
+from .fixtures.card_data import CARD_TEST_CASES, ACCOUNT_TEST_CASES  # Импорт данных
 
 
 # def test_get_mask_account() -> None:
@@ -16,7 +16,9 @@ from .fixtures.card_data import CARD_TEST_CASES,ACCOUNT_TEST_CASES  # Импор
 
 @pytest.mark.parametrize("card_number, expected, description", CARD_TEST_CASES)
 def test_get_mask_card_number(card_number, expected, description):
+
     """Тест с данными из отдельного Python-файла."""
+
     assert get_mask_card_number(card_number) == expected, (
         f"Ошибка в кейсе: {description} (номер: {card_number})"
     )
@@ -30,25 +32,6 @@ def test_get_mask_account(account_number, expected, description) -> None:
     assert get_mask_account(account_number) == expected, (
         f"Ошибка в кейсе: {description} (счет: {account_number})"
     )
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # def test_get_mask_card_number() -> str:
 #     assert get_mask_card_number(srt1) == srt1_1
 #

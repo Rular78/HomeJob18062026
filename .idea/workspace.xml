@@ -3,6 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="d503bee7-4d7b-4421-9427-bc3ef9fdb74b" name="Changes" comment="homework_10_1 начало 18072026">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/fixtures/processing_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/fixtures/processing_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/masks.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/masks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/processing.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/processing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_masks.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_masks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_processing.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_processing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_widget.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_widget.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -336,7 +343,23 @@
       <option name="project" value="LOCAL" />
       <updated>1784454229297</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="autotest homework10.2 190726">
+      <option name="closed" value="true" />
+      <created>1784472261223</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1784472261223</updated>
+    </task>
+    <task id="LOCAL-00016" summary="autotest homework10.2 190726">
+      <option name="closed" value="true" />
+      <created>1784472272113</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1784472272113</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -374,7 +397,8 @@
     <MESSAGE value="чистка кода листенерами 18072026" />
     <MESSAGE value="чистка кода повторно 19072926" />
     <MESSAGE value="исправление 190726" />
-    <option name="LAST_COMMIT_MESSAGE" value="исправление 190726" />
+    <MESSAGE value="autotest homework10.2 190726" />
+    <option name="LAST_COMMIT_MESSAGE" value="autotest homework10.2 190726" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
