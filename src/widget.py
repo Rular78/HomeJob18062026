@@ -1,10 +1,11 @@
-from src.masks import get_mask_card_number, get_mask_account
 from datetime import datetime
+
+from src.masks import get_mask_account, get_mask_card_number
 
 
 def mask_account_card(card_info: str) -> str:
     # Разделяем строку на части: тип и номер
-    parts = card_info.rsplit(' ', 1)  # Разделяем по последнему пробелу
+    parts = card_info.rsplit(" ", 1)  # Разделяем по последнему пробелу
 
     # Если разделение не удалось (нет пробела), возвращаем исходную строку
     if len(parts) != 2:
