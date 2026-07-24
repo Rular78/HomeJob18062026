@@ -3,15 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d503bee7-4d7b-4421-9427-bc3ef9fdb74b" name="Changes" comment="homework_10_1 начало 18072026">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/processing.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/processing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/widget.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/widget.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/fixtures/card_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/fixtures/card_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/fixtures/processing_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/fixtures/processing_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_masks.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_masks.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_processing.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_processing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_widget.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_widget.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +50,7 @@
   <component name="ProjectId" id="3FJLxClnPCP8yW3kNG1uEjHvU0z" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="2" id="Remove" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -75,6 +67,7 @@
     &quot;Python tests.pytest for tests.test_processing.test_filter_by_state.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.pytest for tests.test_processing.test_sort_by_date.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.pytest in conftest.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_mask.py.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.pytest in test_masks.py.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.pytest in test_processing.py.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.pytest in test_widget.py.executor&quot;: &quot;Run&quot;,
@@ -112,7 +105,7 @@
       <recent name="$PROJECT_DIR$/tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_widget.py">
+  <component name="RunManager" selected="Python tests.pytest in test_mask.py">
     <configuration name="masks (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="HomeJob180626" />
       <option name="ENV_FILES" value="" />
@@ -137,7 +130,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in conftest.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in test_mask.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="HomeJob180626" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -152,11 +145,11 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/conftest.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_mask.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_masks.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in test_masks.py.old" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="HomeJob180626" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -171,7 +164,7 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_masks.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_masks.py.old&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -215,11 +208,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest in test_mask.py" />
+        <item itemvalue="Python.masks (1)" />
         <item itemvalue="Python tests.pytest in test_widget.py" />
         <item itemvalue="Python tests.pytest in test_processing.py" />
-        <item itemvalue="Python tests.pytest in test_masks.py" />
-        <item itemvalue="Python.masks (1)" />
-        <item itemvalue="Python tests.pytest in conftest.py" />
+        <item itemvalue="Python tests.pytest in test_masks.py.old" />
       </list>
     </recent_temporary>
   </component>
@@ -406,7 +399,15 @@
       <option name="project" value="LOCAL" />
       <updated>1784707922143</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="home work 10.1 22072026 pytest --cov=src --cov-report=html:htmlcov">
+      <option name="closed" value="true" />
+      <created>1784707981105</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1784707981105</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
