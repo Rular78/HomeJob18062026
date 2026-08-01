@@ -1,6 +1,7 @@
 """
 Модуль тестирования функций маскировки.
 """
+
 import pytest
 
 from src.widget import get_date, mask_account_card
@@ -21,9 +22,7 @@ def test_mask_account_card(card_info: str, expected: str, description: str) -> N
 
 
 @pytest.mark.parametrize(
-    "date_string, expected, description",
-    DATE_TEST_CASES,
-    ids=[case[2] for case in DATE_TEST_CASES]
+    "date_string, expected, description", DATE_TEST_CASES, ids=[case[2] for case in DATE_TEST_CASES]
 )
 def test_get_date(date_string: str, expected: str, description: str) -> None:
     """

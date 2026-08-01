@@ -1,6 +1,7 @@
+from typing import Any, Dict, List
+
 import pytest
 
-from typing import List, Dict, Any
 from src.processing import filter_by_state, sort_by_date
 
 """
@@ -22,7 +23,9 @@ TRANSACTIONS = [
     FILTER_BY_STATE_TEST_CASES,
     ids=[case[3] for case in FILTER_BY_STATE_TEST_CASES],
 )
-def test_filter_by_state(data_list: List[Dict[str, Any]], state: str, expected: List[Dict[str, Any]], description: str) -> None:
+def test_filter_by_state(
+    data_list: List[Dict[str, Any]], state: str, expected: List[Dict[str, Any]], description: str
+) -> None:
     """
     Параметризованный тест фильтрации транзакций по состоянию.
     """
@@ -34,7 +37,9 @@ def test_filter_by_state(data_list: List[Dict[str, Any]], state: str, expected: 
     SORT_BY_DATE_TEST_CASES,
     ids=[case[3] for case in SORT_BY_DATE_TEST_CASES],
 )
-def test_sort_by_date(data_list: List[Dict[str, Any]], is_descending: bool, expected: List[Dict[str, Any]], description: str) -> None:
+def test_sort_by_date(
+    data_list: List[Dict[str, Any]], is_descending: bool, expected: List[Dict[str, Any]], description: str
+) -> None:
     """
     Параметризованный тест сортировки транзакций по дате.
     """

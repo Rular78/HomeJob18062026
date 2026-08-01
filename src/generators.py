@@ -10,7 +10,7 @@ def filter_by_currency(transactions: list, currency_code: str = "USD") -> list:
     for i in transactions:
         if i.get("operationAmount", {}).get("currency", {}).get("code", {}) == currency_code:
             transactions_code.append(i)
-        elif i.get('currency_code') == currency_code:
+        elif i.get("currency_code") == currency_code:
             transactions_code.append(i)
     return transactions_code
 
