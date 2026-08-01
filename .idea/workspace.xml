@@ -458,7 +458,23 @@
       <option name="project" value="LOCAL" />
       <updated>1785598282199</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="HomeWork generator 01">
+      <option name="closed" value="true" />
+      <created>1785600932348</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1785600932350</updated>
+    </task>
+    <task id="LOCAL-00028" summary="HomeWork generator final">
+      <option name="closed" value="true" />
+      <created>1785600947428</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1785600947428</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -502,6 +518,7 @@
     <MESSAGE value="home work 10.1 22072026 pytest --cov=src --cov-report=html:htmlcov" />
     <MESSAGE value="HomeWork_10.1 240726 correction_error" />
     <MESSAGE value="HomeWork generator 01" />
-    <option name="LAST_COMMIT_MESSAGE" value="HomeWork generator 01" />
+    <MESSAGE value="HomeWork generator final" />
+    <option name="LAST_COMMIT_MESSAGE" value="HomeWork generator final" />
   </component>
 </project>
