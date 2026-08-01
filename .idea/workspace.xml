@@ -482,7 +482,23 @@
       <option name="project" value="LOCAL" />
       <updated>1785601004584</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="HomeWork generator final">
+      <option name="closed" value="true" />
+      <created>1785613289228</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1785613289228</updated>
+    </task>
+    <task id="LOCAL-00031" summary="HomeWork generator final">
+      <option name="closed" value="true" />
+      <created>1785613419931</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1785613419931</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
