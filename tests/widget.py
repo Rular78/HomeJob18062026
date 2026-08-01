@@ -58,3 +58,6 @@ def get_date(date_string: str) -> str:
 # print(result1)
 # result1 = mask_account_card("Счет 73654108430135874305")
 # print(result1)
+# print("hello")
+# result1 = get_date("2024-03-11T02:26:18.671407")
+# print(result1)

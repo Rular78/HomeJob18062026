@@ -1,7 +1,7 @@
 
 from typing import List, Generator, Iterator
 import pytest
-from src.generators import transaction_descriptions, card_number_generator
+from src.generators import card_number_generator, transaction_descriptions
 
 
 transactions = (
@@ -101,7 +101,13 @@ transactions = (
 #        generator = filter_by_currency(transactions, 'EU')
 #        assert next(generator) == exc_info
 
-
+@pytest.mark.parametrize("index, expected", [
+    (0, "Перевод организации"),
+    (1, "Перевод со счета на счет"),
+    (2, "Перевод со счета на счет"),
+    (3, "Перевод с карты на карту"),
+    (4, "Перевод организации"),
+])
 def test_transaction_descriptions_3(index: int, expected: str) -> None:
     """Тест получения описания транзакции по индексу."""
     descriptions: List[str] = list(transaction_descriptions(transactions))

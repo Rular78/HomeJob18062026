@@ -27,3 +27,19 @@ def sort_by_date(data_list: List[Dict[str, Any]], is_descending: bool = True) ->
             return datetime.min
 
     return sorted(data_list, key=get_date, reverse=is_descending)
+
+# Dict_list = [
+#    {'id': 414288290, 'state': 'EXECUTED', 'date': '2019-07-03T18:35:29.512364'},
+#    {'id': 939719570, 'state': 'EXECUTED', 'date': '2018-06-30T02:08:58.425572'}
+#    ]
+# result_executed = filter_by_state(Dict_list, "EXECUTED")
+# print("\nРезультат фильтрации по EXECUTED:")
+# print(result_executed)
+# result_canceled = filter_by_state(Dict_list, "CANCELED")
+# print("Результат фильтрации по CANCELED:")
+# print(result_canceled)
+# Dict_list1 = [
+#     {'id': 594226727, 'state': 'CANCELED', 'date': '2018-09-12T21:27:25.241689'},
+#     {'id': 615064591, 'state': 'CANCELED', 'date': '2018-10-14T08:21:33.419441'}
+#     ]
+# filter_by_state(Dict_list1)

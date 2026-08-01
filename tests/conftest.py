@@ -1,10 +1,10 @@
 import pytest
-
+from typing import List, Dict, Any
 from src.processing import filter_by_state
 
 
 @pytest.fixture
-def sample_transactions():
+def sample_transactions() -> List[Dict[str, Any]]:
     """Фикстура с примерами транзакций."""
     return [
         {"id": 1, "state": "EXECUTED", "date": "2023-01-01T10:00:00"},
@@ -14,6 +14,7 @@ def sample_transactions():
 
 
 # test_processing.py
-def test_filter_by_state(sample_transactions):
+def test_filter_by_state(sample_transactions: List[Dict[str, Any]]) -> None:
+    """Тест фильтрации по статусу."""
     result = filter_by_state(sample_transactions, "EXECUTED")
     assert len(result) == 2
