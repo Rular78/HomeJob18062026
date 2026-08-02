@@ -1,6 +1,3 @@
-from src import masks
-
-
 def get_mask_card_number(card_number: int | str) -> str:
     # 1. Сначала преобразуем в строку и убираем пробелы
     card_number = str(card_number).replace(" ", "")
@@ -33,5 +30,5 @@ def get_mask_account(account_number: int | str) -> str:
     return f"** {account_number[-4:]}"
 
 
-print(get_mask_card_number("7000792289606361"))
-print(get_mask_account("73654108430135874305"))
+# print(get_mask_card_number("7000792289606361"))
+# print(get_mask_account("73654108430135874305"))
