@@ -1,3 +1,11 @@
+"""
+Модуль widget для демонстрации работы функций со строками.
+
+Требование к задачам 9.2 (используются функции из другого раздела)
+
+Содержит функции для маскировки номеров карт и счетов.
+"""
+
 from datetime import datetime
 
 from src.masks import get_mask_account, get_mask_card_number
@@ -49,4 +57,7 @@ def get_date(date_string: str) -> str:
 # result1 = mask_account_card("Visa Gold 5999414228426353")
 # print(result1)
 # result1 = mask_account_card("Счет 73654108430135874305")
+# print(result1)
+# print("hello")
+# result1 = get_date("2024-03-11T02:26:18.671407")
 # print(result1)
