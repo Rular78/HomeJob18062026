@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d503bee7-4d7b-4421-9427-bc3ef9fdb74b" name="Changes" comment="homework_10_1 начало 18072026">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -524,7 +525,15 @@
       <option name="project" value="LOCAL" />
       <updated>1785658891515</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="HW .idea delete rep01">
+      <option name="closed" value="true" />
+      <created>1785659338190</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1785659338190</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -571,6 +580,7 @@
     <MESSAGE value="HomeWork generator final" />
     <MESSAGE value="HW readme.md+index.html" />
     <MESSAGE value="HW .idea delete rep" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW .idea delete rep" />
+    <MESSAGE value="HW .idea delete rep01" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW .idea delete rep01" />
   </component>
 </project>
