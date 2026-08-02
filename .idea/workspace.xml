@@ -41,6 +41,16 @@
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;git@github.com:Rular78/HomeJob18062026.git&quot;,
     &quot;accountId&quot;: &quot;d98fae17-aed3-41d2-bffd-d37b5a9bf526&quot;
+  },
+  &quot;recentNewPullRequestHead&quot;: {
+    &quot;server&quot;: {
+      &quot;useHttp&quot;: false,
+      &quot;host&quot;: &quot;github.com&quot;,
+      &quot;port&quot;: null,
+      &quot;suffix&quot;: null
+    },
+    &quot;owner&quot;: &quot;Rular78&quot;,
+    &quot;repository&quot;: &quot;HomeJob18062026&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -86,7 +96,7 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
     &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;#1 on feature/homework__10__1&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;#2 on feature/homework__10__1&quot;,
     &quot;git.auto.fetch.suggestion.counter&quot;: &quot;3&quot;,
     &quot;last_opened_file_path&quot;: &quot;/home/cust/PycharmProjects/HomeJob180626/tests&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
@@ -498,7 +508,15 @@
       <option name="project" value="LOCAL" />
       <updated>1785613419931</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="HW readme.md+index.html">
+      <option name="closed" value="true" />
+      <created>1785613508090</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1785613508090</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -543,6 +561,7 @@
     <MESSAGE value="HomeWork_10.1 240726 correction_error" />
     <MESSAGE value="HomeWork generator 01" />
     <MESSAGE value="HomeWork generator final" />
-    <option name="LAST_COMMIT_MESSAGE" value="HomeWork generator final" />
+    <MESSAGE value="HW readme.md+index.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW readme.md+index.html" />
   </component>
 </project>
